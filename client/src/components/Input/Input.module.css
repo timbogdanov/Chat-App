@@ -1,0 +1,33 @@
+.inputContainer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+}
+
+.inputContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #dddddd;
+}
+
+.inputContainer form input[type='text'] {
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.inputContainer form button {
+  position: absolute;
+  right: 10px;
+  width: 20%;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.inputContainer form input[type='text'],
+.inputContainer form button {
+  border: none;
+  outline: none;
+}

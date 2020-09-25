@@ -1,0 +1,27 @@
+.infoBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  padding: 15px 20px;
+}
+
+.roomInfo {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.roomInfo .onlineDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background: #61c789;
+  margin-right: 10px;
+}
+
+.leaveRoom {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
